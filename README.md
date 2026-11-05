@@ -8,19 +8,19 @@
 
 <div align="center">
 
-<a href="https://github.com/your-username">
+<a href="https://github.com/Secretive-Coder">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=0284C7&center=true&vCenter=true&width=620&lines=Full+Stack+Engineer+specialized+in+TypeScript+%26+React;Architecting+scalable+Node.js+APIs+%26+PostgreSQL+schemas;Modular+Clean+Architecture+%26+Domain-Driven+Design;Building+mission-critical+enterprise+dashboards" alt="Typing SVG" />
 </a>
 
 <br/><br/>
 
-<a href="https://linkedin.com/in/your-linkedin" target="_blank">
+<a href="https://linkedin.com/in/progyan-pratim-handique-ab667933b" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
-<a href="mailto:your.email@example.com">
+<a href="mailto:handiqueprogyan2001@gmail.com">
   <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
-<a href="https://github.com/your-username" target="_blank">
+<a href="https://github.com/Secretive-Coder" target="_blank">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 
@@ -202,5 +202,8 @@ const engineer: FullStackEngineer = {
 </p>
 
 <div align="center">
-  <sub>Clean architecture • Type-safe systems • High-performance web applications</sub>
+  
+*"Simplicity is prerequisite for reliability."* — **Edsger W. Dijkstra**  
+<sub>Crafting systems where engineering rigor meets poetic clarity.</sub>
+
 </div>

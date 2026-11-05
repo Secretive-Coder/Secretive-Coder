@@ -9,7 +9,7 @@
 <div align="center">
 
 <a href="https://github.com/Secretive-Coder">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=0284C7&center=true&vCenter=true&width=620&lines=Full+Stack+Engineer+specialized+in+TypeScript+%26+React;Architecting+scalable+Node.js+APIs+%26+PostgreSQL+schemas;Modular+Clean+Architecture+%26+Domain-Driven+Design;Building+mission-critical+enterprise+dashboards" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1000&color=0284C7&center=true&vCenter=true&width=680&lines=Full+Stack+Engineer+specialized+in+TypeScript+%26+React;Architecting+scalable+Node.js+APIs+%26+PostgreSQL+schemas;Modular+Clean+Architecture+%26+Domain-Driven+Design;Building+mission-critical+enterprise+dashboards" alt="Typing SVG" />
 </a>
 
 <br/><br/>
@@ -204,6 +204,6 @@ const engineer: FullStackEngineer = {
 <div align="center">
   
 *"Simplicity is prerequisite for reliability."* — **Edsger W. Dijkstra**  
-<sub>Crafting systems where engineering rigor meets poetic clarity.</sub>
+<sub>Building products that turn complex problems into simple solutions.</sub>
 
 </div>

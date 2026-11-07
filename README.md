@@ -37,7 +37,7 @@
 <!--                             ENGINEER SPEC                              -->
 <!-- ====================================================================== -->
 
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28" alt="zap" /> Technical Profile
+## <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="32" alt="Dev" /> Technical Profile
 
 ```typescript
 interface FullStackEngineer {
@@ -208,7 +208,7 @@ const engineer: FullStackEngineer = {
 <!--                            GITHUB METRICS                              -->
 <!-- ====================================================================== -->
 
-## <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="28" alt="telemetry" /> Engineering Telemetry
+## <img src="https://media.giphy.com/media/ule4akeXnY9Fb2nxN0/giphy.gif" width="28" alt="telemetry" /> Engineering Telemetry
 
 <div align="center">
 

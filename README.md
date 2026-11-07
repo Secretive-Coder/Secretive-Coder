@@ -26,8 +26,8 @@
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=your-username&label=Profile%20Views&color=0284c7&style=flat-square" alt="Profile Views" />
-<img src="https://img.shields.io/github/followers/your-username?label=Followers&style=flat-square&color=0284c7&logo=github" alt="Followers" />
+<img src="https://komarev.com/ghpvc/?username=Secretive-Coder&label=Profile%20Views&color=0284c7&style=flat-square" alt="Profile Views" />
+<img src="https://img.shields.io/github/followers/Secretive-Coder?label=Followers&style=flat-square&color=0284c7&logo=github" alt="Followers" />
 
 </div>
 
@@ -43,34 +43,32 @@
 interface FullStackEngineer {
   name: string;
   role: "Full Stack Software Engineer";
+  philosophy: string;
   architecture: "Modular Clean Architecture" | "Domain-Driven Design";
   coreStack: {
     frontend: readonly string[];
     backend: readonly string[];
     database: readonly string[];
+    infrastructure: readonly string[];
   };
-  metrics: Record<string, string>;
-  principles: readonly string[];
+  invariants: readonly string[];
 }
 
 const engineer: FullStackEngineer = {
-  name: "Your Name",
+  name: "Progyan Pratim Handique",
   role: "Full Stack Software Engineer",
+  philosophy: "Deconstruct systemic complexity; deliver elegant simplicity.",
   architecture: "Modular Clean Architecture",
   coreStack: {
-    frontend: ["TypeScript", "React", "TanStack Query", "Tailwind CSS"],
-    backend:  ["Node.js", "Bun", "REST / WebSockets", "Zod Validation"],
-    database: ["PostgreSQL", "Drizzle ORM / Prisma", "Redis"]
+    frontend:       ["TypeScript", "React", "Next.js", "Tailwind CSS"],
+    backend:        ["Node.js", "Express.js", "REST APIs", "WebSockets"],
+    database:       ["PostgreSQL", "Drizzle ORM", "Redis"],
+    infrastructure: ["AWS", "Nginx (Reverse Proxy)", "GitHub Actions CI/CD"]
   },
-  metrics: {
-    typeSafety: "100% strict TypeScript (zero `any`)",
-    uptime:     "99.9% target SLA for core services",
-    apiLatency: "<60ms p95 response time on indexed endpoints"
-  },
-  principles: [
-    "Strict type boundaries across client and server",
-    "High maintainability through modular domain isolation",
-    "Resilient schema migrations and atomic transactions"
+  invariants: [
+    "Zero unhandled states (100% strict TypeScript, zero `any`)",
+    "Domain isolation over framework coupling",
+    "Database-first consistency and atomic transactions"
   ]
 };
 ```
@@ -80,17 +78,17 @@ const engineer: FullStackEngineer = {
 <td valign="top" width="50%">
 
 ### 🚀 What I Build
-- **Complex Web Applications**: Fast, type-safe React applications with fine-grained caching and fluid state management.
-- **Robust Backend APIs**: Modular Node.js / Bun services with schema validation and role-based access control.
-- **Data Modeling & Optimization**: Scalable PostgreSQL relational schemas, query planning, indexing, and transactional integrity.
+- **Modular Enterprise Surfaces**: Fast, reactive React & Next.js applications that make intricate multi-step workflows effortless for operators.
+- **Resilient Backend Services**: Node.js & Express RESTful microservices designed with domain isolation and real-time WebSockets.
+- **Relational Foundations**: High-performance PostgreSQL data models optimized with Drizzle ORM, connection pooling, and custom index strategies.
 
 </td>
 <td valign="top" width="50%">
 
 ### 📐 Architectural Principles
-- **Modular Clean Architecture**: Clear separation of domain logic, UI layers, and data infrastructure.
-- **Strict Typing**: Leveraging TypeScript generics and Zod validation across every boundary.
-- **Performance First**: Zero unnecessary re-renders, optimistic UI updates, and connection-pooled queries.
+- **Complexity Made Simple**: Hiding distributed complexity behind clean, intuitive, and cohesive API contracts.
+- **Type-Safe Contract Symmetry**: Strict schema validation with Zod and TypeScript across client, server, and database layers.
+- **Production Performance**: Zero superfluous re-renders, optimistic UI updates, and sub-second operational queries.
 
 </td>
 </tr>
@@ -99,22 +97,22 @@ const engineer: FullStackEngineer = {
 ---
 
 <!-- ====================================================================== -->
-<!--                   FEATURED ENTERPRISE CASE STUDY                       -->
+<!--                   FEATURED ENTERPRISE CASE STUDIES                     -->
 <!-- ====================================================================== -->
 
-## 🏢 Featured Case Study
+## 🏢 Featured Case Studies
 
 <table>
 <tr>
 <td width="65%" valign="top">
 
-### 🛡️ Enterprise Operations & Resource Manager (App-Manager)
-*A high-scale, multi-tenant administrative platform powering internal operations, role-based workflows, and real-time event orchestration.*
+### 🛡️ Enterprise Operations & Fleet CRM (App-Manager)
+*A mission-critical administrative command center orchestrating daily B2B fleet service workflows, financial lifecycles, and cross-functional operations.*
 
-- ⚡ **Modular Architecture**: Engineered with strict domain-driven boundaries, isolating CRM, identity, notification pipelines, and audit logs.
-- 🔄 **Real-Time Orchestration**: Event-driven notification dispatchers (push, SMS, email) with rate-limiting and job queue fallback.
-- 🗄️ **Relational Performance**: Normalized PostgreSQL data architecture handling heavy concurrent reads/writes with query-level index tuning.
-- 🔐 **Zero-Trust Security**: Multi-tier role-based access control (RBAC), secure session tokens, and strict schema validation.
+- ⚡ **Domain-Driven Modularization**: Engineered modular boundaries isolating Job Sheets, Invoicing, Vehicle Intake, and Mechanic dispatch into autonomous domains.
+- 🔔 **Multi-Channel Notification Adapter**: Architected a pluggable alerting pipeline (FCM, WhatsApp, SMS) with rate-limiting and graceful fallback.
+- 🗄️ **Relational Performance**: Structured normalized PostgreSQL schemas using Drizzle ORM, tuned for high-concurrency mutation workloads.
+- 🔐 **Role-Based Governance**: Multi-tiered RBAC enforcing granular operational access across technicians, managers, and operations teams.
 
 </td>
 <td width="35%" valign="top">
@@ -127,12 +125,44 @@ const engineer: FullStackEngineer = {
 
 <br/><br/>
 
-**Core Stack**
-- `TypeScript`
-- `React`
-- `Node.js`
-- `PostgreSQL`
-- `Tailwind CSS`
+**Stack**  
+`TypeScript` · `React`  
+`Node.js` · `Express`  
+`PostgreSQL` · `Drizzle ORM`  
+`Redis` · `AWS` · `Nginx`
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<table>
+<tr>
+<td width="65%" valign="top">
+
+### 🛰️ B2B Fleet Business Portal
+*A client-facing digital intelligence portal enabling commercial fleet partners to monitor assets, inspection statuses, and operational data in real time.*
+
+- 📊 **Operational Transparency**: Real-time visibility into active fleet health, under-repair units, inspection timelines, and service histories.
+- 🔄 **CRM Cohesion**: Seamlessly synchronizes operational telemetry with the internal CRM platform through secure, low-latency API boundaries.
+- ⚡ **Performance First**: Server-rendered and component-based Next.js frontend with responsive UI for mission-critical client monitoring.
+
+</td>
+<td width="35%" valign="top">
+
+<br/>
+
+<img src="https://img.shields.io/badge/Status-Active%20Deployment-2ea043?style=for-the-badge" alt="Status" />
+<br/>
+<img src="https://img.shields.io/badge/Audience-B2B%20Enterprise-0284c7?style=for-the-badge" alt="Audience" />
+
+<br/><br/>
+
+**Stack**  
+`React` · `Next.js`  
+`TypeScript` · `Tailwind CSS`  
+`REST APIs` · `Nginx`
 
 </td>
 </tr>
@@ -149,11 +179,11 @@ const engineer: FullStackEngineer = {
 <div align="center">
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=ts,react,vite,tailwind,html,css&theme=dark" alt="Frontend Stack" />
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,html,css&theme=dark" alt="Frontend Stack" />
   <br/>
-  <img src="https://skillicons.dev/icons?i=nodejs,bun,express,postgres,prisma&theme=dark" alt="Backend & DB" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,redis,prisma&theme=dark" alt="Backend & DB" />
   <br/>
-  <img src="https://skillicons.dev/icons?i=docker,nginx,git,githubactions,linux,vscode&theme=dark" alt="DevOps & Tools" />
+  <img src="https://skillicons.dev/icons?i=aws,nginx,docker,git,githubactions,linux&theme=dark" alt="DevOps & Tools" />
 </a>
 
 </div>
@@ -164,11 +194,11 @@ const engineer: FullStackEngineer = {
 
 | Layer | Technologies |
 | :--- | :--- |
-| **Frontend** | React 19 / 18, TypeScript, TanStack Router & Query, Tailwind CSS, Vite |
-| **Backend** | Node.js, Bun, Express, Hono, RESTful APIs, WebSockets |
-| **Database & Cache** | PostgreSQL, Drizzle ORM, Prisma, Redis, Connection Pooling |
-| **Validation & State** | Zod, Strict TypeScript, Zustand / Context API |
-| **DevOps & Tooling** | Docker, Git, Biome, PM2, Linux / Shell, Turborepo |
+| **Frontend** | React, Next.js, TypeScript, Tailwind CSS, Responsive Component Architecture |
+| **Backend & APIs** | Node.js, Express.js, RESTful API Design, Microservices, WebSockets |
+| **Database & Cache** | PostgreSQL, Drizzle ORM, Redis, Query Optimization, Database Design |
+| **Cloud & DevOps** | AWS, Nginx (Reverse Proxy & Caching), GitHub Actions CI/CD, Linux |
+| **Practices** | Modular Clean Architecture, System Design, Agile Development |
 
 </details>
 
@@ -182,12 +212,12 @@ const engineer: FullStackEngineer = {
 
 <div align="center">
 
-<img height="155" src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&theme=tokyonight&title_color=0284c7&icon_color=0284c7" alt="GitHub Stats" />
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&langs_count=6&hide_border=true&theme=tokyonight&title_color=0284c7" alt="Top Languages" />
+<img height="155" src="https://github-readme-stats.vercel.app/api?username=Secretive-Coder&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&theme=tokyonight&title_color=0284c7&icon_color=0284c7" alt="GitHub Stats" />
+<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Secretive-Coder&layout=compact&langs_count=6&hide_border=true&theme=tokyonight&title_color=0284c7" alt="Top Languages" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=your-username&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com/?user=Secretive-Coder&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
 </div>
 

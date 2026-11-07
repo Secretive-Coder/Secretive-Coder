@@ -37,7 +37,7 @@
 <!--                             ENGINEER SPEC                              -->
 <!-- ====================================================================== -->
 
-## ⚡ Technical Profile
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28" alt="zap" /> Technical Profile
 
 ```typescript
 interface FullStackEngineer {
@@ -100,7 +100,7 @@ const engineer: FullStackEngineer = {
 <!--                   FEATURED ENTERPRISE CASE STUDIES                     -->
 <!-- ====================================================================== -->
 
-## 🏢 Featured Case Studies
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28" alt="radar" /> Featured Case Studies
 
 <table>
 <tr>
@@ -174,7 +174,7 @@ const engineer: FullStackEngineer = {
 <!--                              TECH STACK                                -->
 <!-- ====================================================================== -->
 
-## 🛠️ Technology Stack
+## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="28" alt="tools" /> Technology Stack
 
 <div align="center">
 
@@ -208,7 +208,7 @@ const engineer: FullStackEngineer = {
 <!--                            GITHUB METRICS                              -->
 <!-- ====================================================================== -->
 
-## 📊 Engineering Telemetry
+## <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="28" alt="telemetry" /> Engineering Telemetry
 
 <div align="center">
 
